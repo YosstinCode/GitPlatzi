@@ -13,12 +13,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
+    border: 1px solid rgb(28, 170, 92);
 
+}
+
+#header{
+    text-align: center;
+    width: 90%;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(28, 170, 92);
+    background-color: rgb(165, 236, 194);
+    text-transform: uppercase;
 }
 
 #post{
     width: 80%;
     padding: 1rem;
-    border: 1px solid rgb(28, 170, 92);
 }
